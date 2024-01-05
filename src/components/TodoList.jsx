@@ -5,7 +5,7 @@ function TodoList() {
   let todoInput;
   return (
     <div className="flex w-10/12 flex-col items-center justify-center">
-      <h3
+      <h2
         className="
         mt-2
         font-medium
@@ -14,7 +14,7 @@ function TodoList() {
         {todos().length === 0
           ? "There are no tasks, awesome!"
           : "These are your tasks for today."}
-      </h3>
+      </h2>
       <ul
         className="
         my-5 h-48 w-full overflow-auto
