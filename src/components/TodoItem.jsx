@@ -1,6 +1,6 @@
 import { db, deleteDoc, doc } from "../firebase.config";
 
-export default function Todo(props) {
+export default function TodoItem(props) {
   const { todo } = props;
   return (
     <li
