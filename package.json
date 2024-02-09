@@ -1,7 +1,7 @@
 {
   "name": "solidbase",
   "version": "0.0.0",
-  "description": "this project built with solidbase stack",
+  "description": "This project is built using the SolidBase tech stack",
   "scripts": {
     "start": "vite --host",
     "dev": "vite --host",
@@ -10,15 +10,16 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.24",
-    "solid-devtools": "^0.27.3",
-    "tailwindcss": "^3.3.2",
-    "vite": "^4.3.9",
-    "vite-plugin-solid": "^2.7.0"
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.1",
+    "vite-plugin-solid": "^2.9.1"
+    "solid-devtools": "^0.29.3",
   },
   "dependencies": {
-    "firebase": "^9.23.0",
-    "solid-js": "^1.7.6"
+    "@solidjs/router": "^0.12.0",
+    "firebase": "^10.8.0",
+    "solid-js": "^1.8.14"
   }
 }
